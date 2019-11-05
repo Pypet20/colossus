@@ -18,7 +18,7 @@ SECRET_KEY = config('SECRET_KEY', default=string.ascii_letters)
 
 DEBUG = config('DEBUG', default=True, cast=bool)
 
-ALLOWED_HOSTS = ['https://lit-temple-61126.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['.herokuapp.com']
 
 INSTALLED_APPS = [
     'django.contrib.auth',
